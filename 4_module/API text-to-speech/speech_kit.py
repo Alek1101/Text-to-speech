@@ -3,6 +3,7 @@ import requests
 from config import IAM_token, folder_id
 
 
+
 def text_to_speech(text: str):
     # Токен, Folder_id для доступа к Yandex SpeechKit
     iam_token = IAM_token

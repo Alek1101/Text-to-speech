@@ -54,6 +54,7 @@ def count_all_symbol(user_id, db_name="speech_kit.db"):
         print(f"Error: {e}")
 
 
+
 def clean_table(db_name="speech_kit.db", table_name='messages'):
     try:
         with sqlite3.connect(db_name) as conn:
